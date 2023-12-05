@@ -1,2 +1,2 @@
 # Grass-detection (ML)
-Задача. Определить процент проективного покрытия травяной растительности на фотографии в процентном соотношении с помощью ML. Представлен Dataset. (https://www.kaggle.com/datasets/timofeymoiseev/grass)
+Task - Determine the percentage of projective cover of grass vegetation in a photograph using ML. Dataset introduced.(https://www.kaggle.com/datasets/timofeymoiseev/grass)
