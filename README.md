@@ -35,6 +35,15 @@ The quality of the neural network was tested in the following way. First of all,
 ![image](https://github.com/MoiseyT/Grass-detection/assets/101183971/53dfbea3-f973-4ae7-8bd0-5fb79fab47f2)
 
 ## Results
+The accuracy of the ResNet model (AM=266,94) exceeded the accuracy of the expert estimate (AE = 274,54) based on the results of the first test dataset. The accuracy of the GoogLeNet model (AM= 508,89) was significantly lower than that of the ResNet model. The testing on the second test dataset shows the following results. The MSE of the expert estimation is lower than that of the first test dataset estimated. However, there is a significant excess in accuracy of the GoogLeNet model (AM = 104,92) over the expert estimation (AE = 184,95) The ResNet model shows a worse result (AM = 136,81), but still better than the expert estimation.
+
+
+![image](https://github.com/MoiseyT/Grass-detection/assets/101183971/f4a2cf59-440a-434e-98fe-185f5106ed16)
+
+
+![image](https://github.com/MoiseyT/Grass-detection/assets/101183971/2187ba61-950d-48d5-9e17-7fc90de33e43)
+
+It can be assumed that the expert evaluation by grid (the first sample) was more effective than expert valuation by the whole photo (the second sample), despite it was more time-consuming. This can be seen in the lower MSE values in the second test sample compared to the first. The results of neural networks with the second sample were slightly better than with the first sample. The disadvantages of the proposed method include the high role of human factor in the preparation of the training sample and the associated error of the neural network. This problem can be solved by involving a large number of experts. In addition, errors in determining the projective coverage of herbaceous vegetation in plant communities of different natural zones are likely. Using these models to identify communities within tropical climates can be difficult due to the fact that the neural network did not "see" images of these communities during training. The above issue is solved by increasing the size of the training sample and the use of photographs of plant communities from different natural zones and landscape complexes.
 
 
 
